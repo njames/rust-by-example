@@ -1,4 +1,6 @@
 fn main() {
+    let pi = 3.141592;
+
     // In general, the `{}` will be automatically replaced with any
     // arguments. These will be stringified.
     println!("{} days", 31);
@@ -38,4 +40,6 @@ fn main() {
     // handling. This will not work.
     // println!("This struct `{}` won't print...", Structure(3));
     // FIXME ^ Comment out this line.
+
+    println!("I like to eat pie {number:.width$} times a year", number=pi, width=3)
 }
